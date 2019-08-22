@@ -1,0 +1,120 @@
+@mixin border-radius($radius){
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  -ms-border-radius:$radius;
+  -o-border-radius:$radius;
+  border-radius:$radius;
+}
+@mixin transition($time,$type){
+  -webkit-transition: all $time $type;
+  -moz-transition: all $time $type;
+  -ms-transition: all $time $type;
+  -o-transition: all $time $type;
+  transition: all $time $type;
+}
+@mixin transform-scale($x){
+  -webkit-transform: scale($x);
+  -moz-transform: scale($x);
+  -ms-transform: scale($x);
+  -o-transform: scale($x);
+  transform: scale($x);
+}
+@mixin transform-translateX($x){
+  -webkit-transform: translateX($x);
+  -moz-transform: translateX($x);
+  -ms-transform: translateX($x);
+  -o-transform: translateX($x);
+  transform: translateX($x);
+}
+@mixin transform-translateY($x){
+  -webkit-transform: translateY($x);
+  -moz-transform: translateY($x);
+  -ms-transform: translateY($x);
+  -o-transform: translateY($x);
+  transform: translateY($x);
+}
+@mixin transform-translateZ($x){
+  -webkit-transform: translateZ($x);
+  -moz-transform: translateZ($x);
+  -ms-transform: translateZ($x);
+  -o-transform: translateZ($x);
+  transform: translateZ($x);
+}
+@mixin transform-translate($x, $y){
+  -webkit-transform:translate($x, $y);
+  -moz-transform:translate($x, $y);
+  -ms-transform:translate($x, $y);
+  -o-transform:translate($x, $y);
+  transform:translate($x, $y);
+}
+@mixin transform-rotateX($deg){
+  -webkit-transform: rotateX($deg);
+  -moz-transform: rotateX($deg);
+  -ms-transform: rotateX($deg);
+  -o-transform: rotateX($deg);
+  transform: rotateX($deg);
+}
+@mixin transform-rotateY($deg){
+  -webkit-transform: rotateY($deg);
+  -moz-transform: rotateY($deg);
+  -ms-transform: rotateY($deg);
+  -o-transform: rotateY($deg);
+  transform: rotateY($deg);
+}
+@mixin transform-rotateZ($deg){
+  -webkit-transform: rotateZ($deg);
+  -moz-transform: rotateZ($deg);
+  -ms-transform: rotateZ($deg);
+  -o-transform: rotateZ($deg);
+  transform: rotateZ($deg);
+}
+@mixin transform-origin($left,$right){
+  -webkit-transform-origin:$left $right;
+  -moz-transform-origin:$left $right;
+  -ms-transform-origin:$left $right;
+  -o-transform-origin:$left $right;
+  transform-origin:$left $right;
+}
+
+@mixin box-shadow($a,$b,$blur,$size,$color){
+  -webkit-box-shadow: $a $b $blur $size $color;
+  -moz-box-shadow: $a $b $blur $size $color;
+  box-shadow: $a $b $blur $size $color;
+}
+@mixin animation($name,$time,$type){
+  -webkit-animation:$name $time $type;
+  -o-animation:$name $time $type;
+  animation:$name $time $type;
+}
+@mixin animation-loop($val){
+  -webkit-animation-iteration-count: $val;
+  -moz-animation-iteration-count: $val;
+  -o-animation-iteration-count: $val;
+  animation-iteration-count: $val;
+}
+@mixin perspective($x){
+  -webkit-perspective:$x;
+  -moz-perspective:$x;
+  -ms-perspective:$x;
+  perspective:$x;
+}
+@mixin backface-visibility($value){
+  -webkit-backface-visibility:$value ;
+  -moz-backface-visibility:$value ;
+  -ms-backface-visibility:$value ;
+  backface-visibility:$value ;
+}
+@mixin box-shadow($value){
+  -webkit-box-shadow: $value;
+  -moz-box-shadow: $value;
+  -o-box-shadow: $value;
+  box-shadow: $value;
+}
+@mixin user-select($value){
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+

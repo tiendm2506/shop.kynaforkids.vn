@@ -1,0 +1,32 @@
+#shop-details-page{
+  #banner{
+    a{
+      color: #333333;
+    }
+  }
+  #video{
+    .video{
+      width: calc(100% + 30px);
+      margin-left: -15px;
+    }
+    .box-buy-course{
+      border-radius: 8px;
+      box-shadow: 0 2px 8px 0 rgba(173, 173, 173, 0.5);
+      background-color: #ffffff;
+      .form{
+        ul{
+          li{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            input{}
+            label{}
+            .price{
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}
