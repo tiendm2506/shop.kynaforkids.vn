@@ -92,6 +92,10 @@
                             <div class="tag d-none d-lg-block">Ứng dụng</div>
                             <h3 class="d-none d-lg-block">Bé giỏi Toán cùng Fingermath & Soroban</h3>
                             <form class="form">
+                                <div class="d-lg-none control-show-list-package">
+                                    <span>Chọn khoá học</span>
+                                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                                </div>
                                 <ul>
                                     <li class="is-selected">
                                         <div>
@@ -131,6 +135,37 @@
                 </div>
             </div>
         </section>
+        <section class="d-lg-none" id="just-mobile">
+            <ul>
+                <li class="is-selected">
+                    <div>
+                        <label for="one-month">Học 1 tháng</label>
+                    </div>
+                    <div class="price">
+                        <div class="origin-price">8.000đ</div>
+                        <div class="promotion-price">8.000đ</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="one-year">Học 1 năm</label>
+                    </div>
+                    <div class="price">
+                        <div class="origin-price">8.000đ</div>
+                        <div class="promotion-price">8.000đ</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="six-month">Học 6 tháng</label>
+                    </div>
+                    <div class="price">
+                        <div class="origin-price">8.000đ</div>
+                        <div class="promotion-price">8.000đ</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
         <section id="slider-images">
             <div class="container">
                 <div class="row">
@@ -155,6 +190,7 @@
                 </div>
             </div>
         </section>
+
         <section id="intro">
             <div class="container">
                 <div class="row">
@@ -507,6 +543,14 @@
         $('.slider-large-images .slick-prev').on('click', function(){
             $('.slider-small-images .slick-prev').trigger('click');
         })
+    </script>
+    <script>
+        if (window.matchMedia('(max-width: 991px)').matches){
+            $('.control-show-list-package').on('click', function(){
+                $(this).toggleClass('is-showed');
+                $('#shop-details-page #video .box-buy-course .form ul').slideToggle();
+            })
+        }
     </script>
 
 
