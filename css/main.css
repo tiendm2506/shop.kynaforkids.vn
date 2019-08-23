@@ -695,13 +695,73 @@ input[type="radio"]:checked:after {
   font-weight: 700;
   font-size: 20px;
   text-align: center; }
+  @media (min-width: 992px) {
+    #shop-details-page h4 {
+      font-size: 24px;
+      text-align: left; } }
 
 #shop-details-page #banner {
   padding: 20px 0 0 0; }
+  @media (min-width: 992px) {
+    #shop-details-page #banner {
+      background-image: url("../images/monkey.png");
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      color: #ffffff;
+      padding: 20px 0 120px;
+      border-radius: 0 0 20px 20px;
+      overflow: hidden; }
+      #shop-details-page #banner:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #000000;
+        opacity: 0.2; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .container {
+      position: relative;
+      z-index: 2; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .name {
+      align-items: center;
+      margin: 40px 0 15px; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .name .tag {
+      border-radius: 23px;
+      background-color: #1cd1ff;
+      font-size: 16px;
+      width: 120px;
+      text-align: center;
+      padding: 7px 0;
+      margin-right: 10px; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .name h1 {
+      font-weight: 700;
+      font-size: 20px; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .description {
+      display: flex !important; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .description span {
+      margin-right: 25px; } }
   #shop-details-page #banner a {
     color: #333333;
     margin-bottom: 10px;
     display: inline-block; }
+    @media (min-width: 992px) {
+      #shop-details-page #banner a {
+        color: #ffffff; } }
+    #shop-details-page #banner a i {
+      margin-right: 5px; }
+
+@media (min-width: 992px) {
+  #shop-details-page #video {
+    margin-top: -100px; } }
 
 #shop-details-page #video .video {
   width: calc(100% + 30px);
@@ -723,35 +783,95 @@ input[type="radio"]:checked:after {
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(173, 173, 173, 0.5);
   background-color: #ffffff; }
+  #shop-details-page #video .box-buy-course .tag {
+    display: none !important; }
+  #shop-details-page #video .box-buy-course h3 {
+    display: none !important; }
   #shop-details-page #video .box-buy-course .form ul {
     padding: 15px 15px 7px 15px; }
+    @media (min-width: 992px) {
+      #shop-details-page #video .box-buy-course .form ul {
+        padding-bottom: 0; } }
     #shop-details-page #video .box-buy-course .form ul li {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      border-bottom: 1px solid #dddddd;
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        #shop-details-page #video .box-buy-course .form ul li {
+          font-size: 16px; } }
+      @media (min-width: 992px) {
+        #shop-details-page #video .box-buy-course .form ul li {
+          border: 2px solid #ddd;
+          padding: 15px 15px 11px 15px;
+          border-radius: 8px; } }
       #shop-details-page #video .box-buy-course .form ul li:last-child {
-        padding-bottom: 0; }
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-bottom: 5px; }
+        @media (min-width: 992px) {
+          #shop-details-page #video .box-buy-course .form ul li:last-child {
+            padding-bottom: 11px;
+            border-bottom: 2px solid #dddddd; } }
       #shop-details-page #video .box-buy-course .form ul li input {
         display: none; }
         @media (min-width: 992px) {
           #shop-details-page #video .box-buy-course .form ul li input {
             display: inline-block; } }
+      #shop-details-page #video .box-buy-course .form ul li label {
+        margin-bottom: 0; }
+        @media (min-width: 992px) {
+          #shop-details-page #video .box-buy-course .form ul li label {
+            margin: 0 0 0 10px;
+            position: relative;
+            top: -5px; } }
       #shop-details-page #video .box-buy-course .form ul li .price {
         display: flex;
         justify-content: space-between;
         width: 50%; }
+        @media (min-width: 992px) {
+          #shop-details-page #video .box-buy-course .form ul li .price {
+            justify-content: flex-end; } }
         #shop-details-page #video .box-buy-course .form ul li .price .origin-price {
           font-size: 12px;
           color: #888888;
           text-decoration: line-through; }
+          @media (min-width: 768px) {
+            #shop-details-page #video .box-buy-course .form ul li .price .origin-price {
+              font-size: 14px; } }
         #shop-details-page #video .box-buy-course .form ul li .price .promotion-price {
           font-size: 16px;
           color: #ff3f7c;
           font-weight: 700; }
+          @media (min-width: 992px) {
+            #shop-details-page #video .box-buy-course .form ul li .price .promotion-price {
+              margin-left: 50px; } }
   #shop-details-page #video .box-buy-course .form button {
     display: none; }
+    @media (min-width: 992px) {
+      #shop-details-page #video .box-buy-course .form button {
+        display: inline-block;
+        width: calc(100% - 30px);
+        margin: 20px 0 20px 15px;
+        border-radius: 10px;
+        background-image: linear-gradient(81deg, #ff7345, #ef5c4d, #ff3f7c, #fd8e67 97%, #fd9266);
+        text-align: center;
+        padding: 15px 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        border: none; } }
+
+#shop-details-page #info-teacher a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+  display: inline-block;
+  margin-bottom: 50px;
+  text-decoration: underline; }
 
 #shop-details-page #info-teacher .wrapper {
   display: flex;
@@ -778,6 +898,14 @@ input[type="radio"]:checked:after {
 #shop-details-page #intro .description p {
   margin-bottom: 10px; }
 
+#shop-details-page #intro .description a {
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #333333;
+  margin-bottom: 50px;
+  display: inline-block; }
+
 #shop-details-page #slider-images h4 {
   margin: 50px 0 20px; }
 
@@ -785,6 +913,23 @@ input[type="radio"]:checked:after {
   width: calc(100% + 30px);
   margin-left: -15px;
   margin-bottom: 15px; }
+  @media (min-width: 992px) {
+    #shop-details-page #slider-images .slider-large-images .slick-slide img {
+      border-radius: 15px; } }
+  #shop-details-page #slider-images .slider-large-images .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: transparent;
+    border: none; }
+    #shop-details-page #slider-images .slider-large-images .slick-arrow.slick-prev {
+      left: 20px; }
+    #shop-details-page #slider-images .slider-large-images .slick-arrow.slick-next {
+      right: 20px; }
+    @media (min-width: 992px) {
+      #shop-details-page #slider-images .slider-large-images .slick-arrow img {
+        width: 40px; } }
 
 #shop-details-page #slider-images .slider-small-images {
   width: calc(100% + 30px);
@@ -811,6 +956,9 @@ input[type="radio"]:checked:after {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0 30px; }
+  @media (min-width: 992px) {
+    #shop-details-page #comment .left .wrapper {
+      flex-wrap: wrap; } }
 
 #shop-details-page #comment .left .point {
   font-size: 30px;
@@ -818,6 +966,13 @@ input[type="radio"]:checked:after {
   font-weight: 700; }
   #shop-details-page #comment .left .point span {
     font-size: 24px; }
+
+@media (min-width: 992px) {
+  #shop-details-page #comment .left .amount {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #888888; } }
 
 #shop-details-page #comment .left .list-rates li {
   display: flex;
@@ -839,10 +994,16 @@ input[type="radio"]:checked:after {
   border: solid 1px #dddddd;
   padding: 20px;
   margin: 30px 0; }
+  @media (min-width: 992px) {
+    #shop-details-page #comment .left .share-comment {
+      padding: 30px; } }
   #shop-details-page #comment .left .share-comment h5 {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 20px; }
+    @media (min-width: 992px) {
+      #shop-details-page #comment .left .share-comment h5 {
+        font-size: 18px; } }
   #shop-details-page #comment .left .share-comment a {
     border-radius: 22.5px;
     border: solid 1px #1cd1ff;
