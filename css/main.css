@@ -72,7 +72,7 @@
           border: none !important; } }
       @media (min-width: 992px) {
         #header .wrapper .menu ul li {
-          margin: 0 20px; } }
+          margin: 0 0 0 20px; } }
       #header .wrapper .menu ul li:first-child {
         border-bottom: 1px solid rgba(0, 0, 0, 0.5);
         padding-bottom: 20px; }

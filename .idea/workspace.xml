@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd6e7bb-f88f-425f-b613-e0eb91700f00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/shop-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/shop-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/common/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/partials/_header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +47,14 @@
         <counts>
           <entry key="html" value="4435" />
           <entry key="js" value="357" />
-          <entry key="scss" value="7978" />
+          <entry key="scss" value="7990" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="4435" />
           <entry key="JavaScript" value="357" />
-          <entry key="SCSS" value="7978" />
+          <entry key="SCSS" value="7990" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="575" column="23" selection-start-line="575" selection-start-column="23" selection-end-line="575" selection-end-column="23" />
+            <state relative-caret-position="287">
+              <caret line="571" column="3" lean-forward="true" selection-start-line="571" selection-start-column="3" selection-end-line="571" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -157,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/common/partials/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="470">
+              <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -198,7 +195,6 @@
       <find>.list-rate</find>
       <find>#video</find>
       <find>.name-date</find>
-      <find>box-buy-course</find>
       <find>-small</find>
       <find>list-rates</find>
       <find>is-fixed</find>
@@ -209,6 +205,7 @@
       <find>buy-</find>
       <find>is-selected</find>
       <find>control-show-list-packag</find>
+      <find>box-buy-course</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../js/</replace>
@@ -227,11 +224,11 @@
         <option value="$PROJECT_DIR$/scss/pages/_homepage.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/scss/common/partials/_header.scss" />
         <option value="$PROJECT_DIR$/scss/common/_general.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/layout/shop-details.html" />
         <option value="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" />
+        <option value="$PROJECT_DIR$/scss/common/partials/_header.scss" />
       </list>
     </option>
   </component>
@@ -349,12 +346,12 @@
       <workItem from="1556110111252" duration="657000" />
       <workItem from="1556200954099" duration="1372000" />
       <workItem from="1566284939503" duration="4654000" />
-      <workItem from="1566353214871" duration="56371000" />
+      <workItem from="1566353214871" duration="56959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63054000" />
+    <option name="totallyTimeSpent" value="63642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="6" />
@@ -445,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/common/partials/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/tung-yeu.mp4">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -486,8 +476,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="575" column="23" selection-start-line="575" selection-start-column="23" selection-end-line="575" selection-end-column="23" />
+        <state relative-caret-position="287">
+          <caret line="571" column="3" lean-forward="true" selection-start-line="571" selection-start-column="3" selection-end-line="571" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/common/partials/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
         </state>
       </provider>
     </entry>
