@@ -53,7 +53,7 @@
                     <div class="wrapper-bg-green">
                         <h3>Khoá học VNMonkey giảm 50%</h3>
                         <p class="d-none d-lg-block">Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullamcorper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis.</p>
-                        <a href="#">Xem ngay!</a>
+                        <a href="javascript:" class="scroll-to-courses">Xem ngay!</a>
                     </div>
                 </div>
             </div>
@@ -399,6 +399,14 @@
                     }
                 }
             ]
+        });
+    </script>
+    <script>
+        $(".scroll-to-courses").on('click', function() {
+            let h_header = $('#header').outerHeight();
+            $('html, body').animate({
+                scrollTop: $(".course-row").offset().top - h_header
+            }, 800);
         });
     </script>
     <!--<script>-->
