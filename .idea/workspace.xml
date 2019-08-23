@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd6e7bb-f88f-425f-b613-e0eb91700f00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/shop-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/shop-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" afterDir="false" />
@@ -48,16 +47,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3271" />
+          <entry key="html" value="3305" />
           <entry key="js" value="357" />
-          <entry key="scss" value="6884" />
+          <entry key="scss" value="7032" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3271" />
+          <entry key="HTML" value="3305" />
           <entry key="JavaScript" value="357" />
-          <entry key="SCSS" value="6884" />
+          <entry key="SCSS" value="7032" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/shop-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="468" column="41" selection-start-line="468" selection-start-column="41" selection-end-line="468" selection-end-column="41" />
+            <state relative-caret-position="393">
+              <caret line="247" column="52" lean-forward="true" selection-start-line="247" selection-start-column="52" selection-end-line="247" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -116,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="396" column="24" selection-start-line="396" selection-start-column="24" selection-end-line="396" selection-end-column="24" />
+            <state relative-caret-position="462">
+              <caret line="397" column="37" selection-start-line="397" selection-start-column="37" selection-end-line="397" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -174,9 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.sear</find>
-      <find>bg-gre</find>
-      <find>icon-row</find>
       <find>bg-green-right</find>
       <find>author</find>
       <find>.course-row</find>
@@ -202,6 +198,11 @@
       <find>.form</find>
       <find>form</find>
       <find>.share</find>
+      <find>rela</find>
+      <find>#comme</find>
+      <find>Đánh giá của học viên</find>
+      <find>.list-rate</find>
+      <find>list-rates</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../js/</replace>
@@ -223,8 +224,8 @@
         <option value="$PROJECT_DIR$/scss/common/_general.scss" />
         <option value="$PROJECT_DIR$/scss/common/partials/_header.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" />
         <option value="$PROJECT_DIR$/layout/shop-details.html" />
+        <option value="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" />
       </list>
     </option>
   </component>
@@ -342,12 +343,12 @@
       <workItem from="1556110111252" duration="657000" />
       <workItem from="1556200954099" duration="1372000" />
       <workItem from="1566284939503" duration="4654000" />
-      <workItem from="1566353214871" duration="45502000" />
+      <workItem from="1566353214871" duration="46203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52185000" />
+    <option name="totallyTimeSpent" value="52886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="958" extended-state="6" />
@@ -462,20 +463,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="396" column="24" selection-start-line="396" selection-start-column="24" selection-end-line="396" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layout/shop-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="468" column="41" selection-start-line="468" selection-start-column="41" selection-end-line="468" selection-end-column="41" />
+        <state relative-caret-position="393">
+          <caret line="247" column="52" lean-forward="true" selection-start-line="247" selection-start-column="52" selection-end-line="247" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="397" column="37" selection-start-line="397" selection-start-column="37" selection-end-line="397" selection-end-column="37" />
         </state>
       </provider>
     </entry>

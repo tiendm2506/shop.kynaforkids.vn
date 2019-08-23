@@ -237,6 +237,9 @@
       display: flex;
       align-items: center;
       margin: 15px 0;
+      @media(min-width: 992px){
+        margin:40px 0 30px;
+      }
       .img{
         img{
           width: 80px;
@@ -340,6 +343,11 @@
     }
   }
   #comment{
+    h4{
+      @media(min-width: 992px){
+        margin: 60px 0 40px;
+      }
+    }
     .left{
       .wrapper{
         display: flex;
@@ -372,6 +380,9 @@
           margin-bottom: 20px;
           justify-content: space-between;
           font-size: 15px;
+          @media(min-width: 992px){
+            color: #888888;
+          }
           &:last-child{
             margin-bottom: 0;
           }
@@ -380,7 +391,12 @@
               width: 230px;
               height: 25px;
               display: inline-block;
+              border: 1px solid #7ed321;
               background-color: #7ed321;
+              &.empty{
+                background: transparent;
+                border-color: #dddddd;
+              }
             }
             &:last-child{
               color: #888888;
@@ -395,6 +411,7 @@
         margin: 30px 0;
         @media(min-width: 992px){
           padding: 30px;
+          margin: 40px 0 0;
         }
         h5{
           font-size: 16px;
