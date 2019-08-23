@@ -93,9 +93,9 @@
                             <h3 class="d-none d-lg-block">Bé giỏi Toán cùng Fingermath & Soroban</h3>
                             <form class="form">
                                 <ul>
-                                    <li>
+                                    <li class="is-selected">
                                         <div>
-                                            <input type="radio" name="time" id="one-month">
+                                            <input type="radio" name="time" id="one-month" checked>
                                             <label for="one-month">Học 1 tháng</label>
                                         </div>
                                         <div class="price">
@@ -212,7 +212,7 @@
             <div class="container">
                 <h4>Đánh giá của học viên <span style="font-weight: 400;" class="d-lg-none">(25 lượt)</span></h4>
                 <div class="row">
-                    <div class="col-lg-6 col-xl-5">
+                    <div class="col-lg-6 col-xl-4">
                         <div class="left">
                             <div class="wrapper">
                                 <div class="point">4.5 / <span>5.0</span></div>
@@ -229,28 +229,28 @@
                             <ul class="list-rates">
                                 <li>
                                     <span>5 sao</span>
-                                    <span></span>
+                                    <span><span style="width: 80%;"></span></span>
                                     <span>80%</span>
                                 </li>
                                 <li>
                                     <span>4 sao</span>
-                                    <span></span>
-                                    <span>80%</span>
+                                    <span><span style="width: 100%;"></span></span>
+                                    <span>100%</span>
                                 </li>
                                 <li>
                                     <span>3 sao</span>
-                                    <span class="empty"></span>
-                                    <span>80%</span>
+                                    <span><span style="width: 50%;"></span></span>
+                                    <span>50%</span>
                                 </li>
                                 <li>
                                     <span>2 sao</span>
-                                    <span class="empty"></span>
-                                    <span>80%</span>
+                                    <span><span style="width: 33%;"></span></span>
+                                    <span>33%</span>
                                 </li>
                                 <li>
                                     <span>1 sao</span>
-                                    <span class="empty"></span>
-                                    <span>80%</span>
+                                    <span><span style="width: 0%;"></span></span>
+                                    <span>0%</span>
                                 </li>
                             </ul>
                             <div class="share-comment">
@@ -259,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-7">
+                    <div class="col-lg-6 col-xl-7 offset-xl-1">
                         <div class="right">
                             <h5>Đánh giá (12)</h5>
                             <ul class="list-comments">
@@ -471,6 +471,42 @@
                 }
             ]
         });
+    </script>
+    <script>
+        $('input[type="radio"]').on('click change', function() {
+            if ($('input[name=time]:checked').length > 0) {
+                $('#shop-details-page #video .box-buy-course .form ul li').removeClass('is-selected');
+                $(this).parent().parent().addClass('is-selected');
+            }
+        });
+    </script>
+    <script>
+        $(window).scroll(function(){
+            let pos_slider_images = $('#slider-images').offset().top;
+            let pos_body = window.pageYOffset;
+            let h_form = $('.box-buy-course').outerHeight();
+            let pos_comment = $('#comment').offset().top;
+            if(pos_body > pos_slider_images && pos_body < (pos_comment - h_form)){
+                $('.box-buy-course').addClass('is-fixed');
+            }else {
+                $('.box-buy-course').removeClass('is-fixed');
+            }
+        })
+    </script>
+    <script>
+        $('.slider-small-images .slick-slide img').on('click', function(){
+           let srcImage = $(this).attr('src');
+           console.log(srcImage);
+           $('.slider-large-images .slick-slide.slick-active img').attr('src', srcImage);
+        });
+    </script>
+    <script>
+        $('.slider-large-images .slick-next').on('click', function(){
+            $('.slider-small-images .slick-next').trigger('click');
+        })
+        $('.slider-large-images .slick-prev').on('click', function(){
+            $('.slider-small-images .slick-prev').trigger('click');
+        })
     </script>
 
 
