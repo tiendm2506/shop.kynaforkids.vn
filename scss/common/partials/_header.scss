@@ -4,12 +4,13 @@
   align-items: center;
   background: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(188, 188, 188, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
   &.is-fixed{
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: 9;
+
   }
   &.is-show-menu{
     .logo{
@@ -90,7 +91,7 @@
             margin: 0 0 0 20px;
           }
           &:first-child{
-            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+            border-bottom: 1px solid #dddddd;
             padding-bottom: 20px;
           }
           margin-bottom: 20px;

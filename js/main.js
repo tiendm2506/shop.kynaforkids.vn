@@ -3,6 +3,8 @@ ActionJs = {
         ActionJs.controlMenuMobile();
         ActionJs.scrollFixedMeu();
         ActionJs.clickPlayVideoYoutube();
+        ActionJs.moveMainContent();
+
     },
 
     controlMenuMobile : function(){
@@ -28,5 +30,9 @@ ActionJs = {
             return false;
         });
     },
+    moveMainContent : function(){
+        let h_header = $('#header').outerHeight();
+        $('main').css('marginTop', h_header);
+    }
 }
 ActionJs.Init();
