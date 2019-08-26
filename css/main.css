@@ -655,6 +655,24 @@ input[type="radio"]:checked:after {
         border: none;
         color: transparent;
         border-radius: 50%; }
+  @media (min-width: 992px) {
+    #homepage #testimonial .slider-testimonial .item {
+      margin: 0 100px;
+      width: 500px;
+      text-align: center;
+      position: relative; }
+      #homepage #testimonial .slider-testimonial .item.slick-current:after {
+        display: none; }
+      #homepage #testimonial .slider-testimonial .item:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        opacity: 0.8; } }
   #homepage #testimonial .slider-testimonial .item:focus {
     box-shadow: none;
     outline: none; }
