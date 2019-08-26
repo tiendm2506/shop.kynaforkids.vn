@@ -90,7 +90,7 @@
             font-weight: 700;
             font-size: 18px; }
             #header .wrapper .menu ul li a.register-btn {
-              background-image: linear-gradient(74deg, #ff7345, #ef5c4d, #ff3f7c, #fd8e67 97%, #fd9266);
+              background-image: linear-gradient(to right, #fe5a75, #fd9266);
               color: #ffffff; }
             #header .wrapper .menu ul li a.login-btn {
               border: solid 1px #fe5a75;
@@ -528,7 +528,7 @@ input[type="radio"]:checked:after {
     border-radius: 22.5px;
     box-shadow: 0 6px 15px 0 rgba(152, 152, 152, 0.29);
     border: solid 5px #cce790;
-    background-image: linear-gradient(74deg, #ff7345, #ef5c4d, #ff3f7c, #fd8e67 97%, #fd9266);
+    background-image: linear-gradient(to right, #fe5a75, #fd9266);
     width: 145px;
     text-align: center;
     padding: 7px 0 8px; }
@@ -712,7 +712,7 @@ input[type="radio"]:checked:after {
   #shop-details-page .stars i:last-child {
     margin-right: 0; }
   #shop-details-page .stars i.disable-active {
-    color: #979797; }
+    color: #d8d8d8; }
 
 #shop-details-page h4 {
   color: #1cd1ff;
@@ -744,8 +744,17 @@ input[type="radio"]:checked:after {
         top: 0;
         width: 100%;
         height: 100%;
-        background: #000000;
-        opacity: 0.2; } }
+        background: #003346;
+        opacity: 0.5; } }
+  @media (min-width: 992px) {
+    #shop-details-page #banner .img-banner {
+      position: absolute;
+      left: 0;
+      top: 0;
+      -ms-filter: blur(7px);
+      filter: blur(7px);
+      height: 100%;
+      object-fit: cover; } }
   @media (min-width: 992px) {
     #shop-details-page #banner .container {
       position: relative;
@@ -938,7 +947,7 @@ input[type="radio"]:checked:after {
               margin-left: 50px; } }
   #shop-details-page #video .box-buy-course .form button {
     width: 100%;
-    background-image: linear-gradient(81deg, #ff7345, #ef5c4d, #ff3f7c, #fd8e67 97%, #fd9266);
+    background-image: linear-gradient(to right, #fe5a75, #fd9266);
     text-align: center;
     padding: 15px 0;
     font-size: 20px;
@@ -1123,6 +1132,9 @@ input[type="radio"]:checked:after {
     padding: 10px 0;
     font-weight: 700;
     font-size: 16px; }
+    #shop-details-page #comment .left .share-comment a:hover {
+      color: #ffffff;
+      background: #1cd1ff; }
 
 #shop-details-page #comment .right .pagination-line {
   margin: 20px 0 40px; }
