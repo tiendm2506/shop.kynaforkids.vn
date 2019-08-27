@@ -247,7 +247,8 @@ input[type="radio"]:checked:after {
 .wrapper-video {
   position: relative;
   padding-bottom: 56.25%;
-  height: 0; }
+  height: 0;
+  background: #000000; }
   .wrapper-video iframe {
     position: absolute;
     top: 0;
