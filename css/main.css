@@ -911,28 +911,22 @@ input[type="radio"]:checked:after {
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      padding-bottom: 15px;
       border-bottom: 1px solid #dddddd;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      padding-bottom: 10px; }
       @media (min-width: 768px) {
         #shop-details-page #video .box-buy-course .form ul li {
           font-size: 16px; } }
       @media (min-width: 992px) {
         #shop-details-page #video .box-buy-course .form ul li {
-          border: 2px solid #ddd;
-          padding: 15px 15px 11px 15px;
-          border-radius: 8px; } }
-      @media (min-width: 992px) {
-        #shop-details-page #video .box-buy-course .form ul li.is-selected {
-          border-color: #7ed321 !important; } }
+          padding: 15px 15px 11px 15px; } }
       #shop-details-page #video .box-buy-course .form ul li:last-child {
-        margin-bottom: 0;
         border-bottom: none;
-        padding-bottom: 5px; }
+        padding-bottom: 5px;
+        margin-bottom: 0; }
         @media (min-width: 992px) {
           #shop-details-page #video .box-buy-course .form ul li:last-child {
-            padding-bottom: 11px;
-            border-bottom: 2px solid #dddddd; } }
+            padding-bottom: 11px; } }
       #shop-details-page #video .box-buy-course .form ul li input {
         margin-right: 10px; }
       #shop-details-page #video .box-buy-course .form ul li label {

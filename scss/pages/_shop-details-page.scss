@@ -229,29 +229,21 @@
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
-            padding-bottom: 15px;
             border-bottom: 1px solid #dddddd;
             margin-bottom: 15px;
+            padding-bottom: 10px;
             @media(min-width: 768px){
               font-size: 16px;
             }
             @media(min-width: 992px){
-              border: 2px solid #ddd;
               padding: 15px 15px 11px 15px;
-              border-radius: 8px;
-            }
-            &.is-selected{
-              @media(min-width: 992px){
-                border-color: #7ed321 !important;
-              }
             }
             &:last-child{
-              margin-bottom: 0;
               border-bottom: none;
               padding-bottom: 5px;
+              margin-bottom: 0;
               @media(min-width: 992px){
                 padding-bottom: 11px;
-                border-bottom: 2px solid #dddddd;
               }
             }
             input{
