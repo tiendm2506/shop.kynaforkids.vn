@@ -726,8 +726,8 @@ input[type="radio"]:checked:after {
 
 #shop-details-page .stars i {
   color: #ffe332;
-  font-size: 20px;
-  margin-right: 10px; }
+  font-size: 15px;
+  margin-right: 5px; }
   #shop-details-page .stars i:last-child {
     margin-right: 0; }
   #shop-details-page .stars i.disable-active {
@@ -1074,21 +1074,30 @@ input[type="radio"]:checked:after {
 
 @media (min-width: 992px) {
   #shop-details-page #comment h4 {
-    margin: 60px 0 40px; } }
+    margin: 60px 0 20px; } }
+
+#shop-details-page #comment .left .wrapper-flex {
+  display: flex; }
+  @media (min-width: 992px) {
+    #shop-details-page #comment .left .wrapper-flex {
+      display: block; } }
 
 #shop-details-page #comment .left .wrapper {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0 30px; }
+  width: 125px;
+  display: inline-block;
+  align-items: center; }
   @media (min-width: 992px) {
     #shop-details-page #comment .left .wrapper {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      width: 100%; } }
 
 #shop-details-page #comment .left .point {
   font-size: 30px;
   color: #ff3f7c;
-  font-weight: 700; }
+  font-weight: 700;
+  margin-top: 25px; }
   #shop-details-page #comment .left .point span {
     font-size: 24px; }
 
@@ -1099,30 +1108,48 @@ input[type="radio"]:checked:after {
     font-size: 20px;
     color: #888888; } }
 
-#shop-details-page #comment .left .list-rates li {
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: space-between;
-  font-size: 15px; }
+#shop-details-page #comment .left .list-rates {
+  width: calc(100% - 140px);
+  margin-left: 15px; }
   @media (min-width: 992px) {
-    #shop-details-page #comment .left .list-rates li {
-      color: #888888; } }
-  #shop-details-page #comment .left .list-rates li:last-child {
-    margin-bottom: 0; }
-  #shop-details-page #comment .left .list-rates li span:nth-child(2) {
-    width: 230px;
-    height: 25px;
-    display: inline-block;
-    border: 1px solid #7ed321;
-    position: relative; }
-    #shop-details-page #comment .left .list-rates li span:nth-child(2) span {
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 100%;
-      background-color: #7ed321; }
-  #shop-details-page #comment .left .list-rates li span:last-child {
-    color: #888888; }
+    #shop-details-page #comment .left .list-rates {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px; } }
+  #shop-details-page #comment .left .list-rates li {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center; }
+    @media (min-width: 992px) {
+      #shop-details-page #comment .left .list-rates li {
+        color: #888888;
+        margin-bottom: 20px; } }
+    #shop-details-page #comment .left .list-rates li:last-child {
+      margin-bottom: 0; }
+    #shop-details-page #comment .left .list-rates li span {
+      width: 38px; }
+      #shop-details-page #comment .left .list-rates li span:nth-child(2) {
+        height: 10px;
+        display: inline-block;
+        border: 1px solid #7ed321;
+        position: relative;
+        width: calc(100% - 86px);
+        margin: 0 5px; }
+        @media (min-width: 992px) {
+          #shop-details-page #comment .left .list-rates li span:nth-child(2) {
+            height: 40px;
+            width: calc(100% - 96px);
+            margin: 0 15px; } }
+        #shop-details-page #comment .left .list-rates li span:nth-child(2) span {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          background-color: #7ed321; }
+      #shop-details-page #comment .left .list-rates li span:last-child {
+        color: #888888; }
 
 #shop-details-page #comment .left .share-comment {
   text-align: center;
@@ -1161,7 +1188,7 @@ input[type="radio"]:checked:after {
 #shop-details-page #comment .right h5 {
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 30px; }
+  margin: 30px 0; }
 
 #shop-details-page #comment .right ul.list-comments li {
   font-size: 16px;
@@ -1200,6 +1227,10 @@ input[type="radio"]:checked:after {
   #shop-details-page #relevant-app .stars i {
     font-size: inherit;
     margin-right: 5px; }
+    @media (max-width: 320px) {
+      #shop-details-page #relevant-app .stars i {
+        font-size: 12px;
+        margin-right: 0; } }
 
 #shop-details-page #just-mobile {
   width: calc(100% - 30px);

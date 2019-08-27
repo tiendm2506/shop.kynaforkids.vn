@@ -94,7 +94,7 @@
                             <h3 class="d-none d-lg-block">Bé giỏi Toán cùng Fingermath & Soroban</h3>
                             <form class="form">
                                 <div class="d-lg-none control-show-list-package">
-                                    <span>Chọn khoá học</span>
+                                    <span>Chọn thời hạn học</span>
                                     <i class="fa fa-chevron-up" aria-hidden="true"></i>
                                 </div>
                                 <ul>
@@ -311,45 +311,46 @@
                     </div>
                     <div class="col-lg-6 col-xl-4 offset-xl-1">
                         <div class="left">
-                            <div class="wrapper">
-                                <div class="point">4.5 / <span>5.0</span></div>
-                                <div class="amount d-none d-lg-block">25 đánh giá</div>
-                                <div class="stars">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star disable-active" aria-hidden="true"></i>
+                            <div class="wrapper-flex">
+                                <div class="wrapper">
+                                    <div class="point">4.5 / <span>5.0</span></div>
+                                    <div class="amount d-none d-lg-block">25 đánh giá</div>
+                                    <div class="stars">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star disable-active" aria-hidden="true"></i>
+                                    </div>
                                 </div>
+                                <ul class="list-rates">
+                                    <li>
+                                        <span>5 sao</span>
+                                        <span><span style="width: 80%;"></span></span>
+                                        <span>80%</span>
+                                    </li>
+                                    <li>
+                                        <span>4 sao</span>
+                                        <span><span style="width: 100%;"></span></span>
+                                        <span>100%</span>
+                                    </li>
+                                    <li>
+                                        <span>3 sao</span>
+                                        <span><span style="width: 50%;"></span></span>
+                                        <span>50%</span>
+                                    </li>
+                                    <li>
+                                        <span>2 sao</span>
+                                        <span><span style="width: 33%;"></span></span>
+                                        <span>33%</span>
+                                    </li>
+                                    <li>
+                                        <span>1 sao</span>
+                                        <span><span style="width: 0%;"></span></span>
+                                        <span>0%</span>
+                                    </li>
+                                </ul>
                             </div>
-
-                            <ul class="list-rates">
-                                <li>
-                                    <span>5 sao</span>
-                                    <span><span style="width: 80%;"></span></span>
-                                    <span>80%</span>
-                                </li>
-                                <li>
-                                    <span>4 sao</span>
-                                    <span><span style="width: 100%;"></span></span>
-                                    <span>100%</span>
-                                </li>
-                                <li>
-                                    <span>3 sao</span>
-                                    <span><span style="width: 50%;"></span></span>
-                                    <span>50%</span>
-                                </li>
-                                <li>
-                                    <span>2 sao</span>
-                                    <span><span style="width: 33%;"></span></span>
-                                    <span>33%</span>
-                                </li>
-                                <li>
-                                    <span>1 sao</span>
-                                    <span><span style="width: 0%;"></span></span>
-                                    <span>0%</span>
-                                </li>
-                            </ul>
                             <div class="share-comment">
                                 <h5>Chia sẻ đánh giá của bạn</h5>
                                 <a href="#">Đăng nhập để đánh giá</a>
@@ -567,6 +568,11 @@
                 $('#shop-details-page #video .box-buy-course .form ul').slideToggle();
             })
         }
+    </script>
+    <script>
+        $('#relevant-app .col-sm-6').slick({
+            slidesToShow: 1,
+        });
     </script>
 
 
