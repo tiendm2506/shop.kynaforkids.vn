@@ -4,6 +4,16 @@
     justify-content: center;
     li{
       margin-right: 10px;
+      &.disabled{
+        a{
+          background: #ffffff !important;
+          border-color: #dddddd !important;
+          cursor: not-allowed;
+          i{
+            color: #dddddd;
+          }
+        }
+      }
       &:hover{
         a{
           background: #f59423;

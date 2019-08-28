@@ -272,6 +272,12 @@ input[type="radio"]:checked:after {
   justify-content: center; }
   .pagination-line ul li {
     margin-right: 10px; }
+    .pagination-line ul li.disabled a {
+      background: #ffffff !important;
+      border-color: #dddddd !important;
+      cursor: not-allowed; }
+      .pagination-line ul li.disabled a i {
+        color: #dddddd; }
     .pagination-line ul li:hover a {
       background: #f59423;
       color: #ffffff;

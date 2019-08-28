@@ -50,16 +50,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5216" />
+          <entry key="html" value="5223" />
           <entry key="js" value="466" />
-          <entry key="scss" value="9403" />
+          <entry key="scss" value="9460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5216" />
+          <entry key="HTML" value="5223" />
           <entry key="JavaScript" value="466" />
-          <entry key="SCSS" value="9403" />
+          <entry key="SCSS" value="9460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,14 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/common/_section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3146">
-              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-              <folding>
-                <element signature="e#16#734#0" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -112,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="233" column="33" lean-forward="true" selection-start-line="233" selection-start-column="33" selection-end-line="233" selection-end-column="33" />
+            <state relative-caret-position="3315">
+              <caret line="221" column="24" lean-forward="true" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -131,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+            <state relative-caret-position="227">
+              <caret line="380" column="43" selection-start-line="380" selection-start-column="43" selection-end-line="380" selection-end-column="43" />
               <folding>
                 <element signature="n#div#0;n#div#5;n#div#2;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -192,7 +189,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-small</find>
       <find>list-rates</find>
       <find>is-fixed</find>
       <find>&quot;form</find>
@@ -222,6 +218,7 @@
       <find>ontrol-show-list-package</find>
       <find>course</find>
       <find>course-row</find>
+      <find>pagi</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../js/</replace>
@@ -246,8 +243,8 @@
         <option value="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" />
         <option value="$PROJECT_DIR$/scss/common/_general.scss" />
         <option value="$PROJECT_DIR$/scss/pages/_homepage.scss" />
-        <option value="$PROJECT_DIR$/scss/common/_section.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/common/_section.scss" />
       </list>
     </option>
   </component>
@@ -330,12 +327,12 @@
       <workItem from="1566353214871" duration="57010000" />
       <workItem from="1566597628027" duration="10000" />
       <workItem from="1566786350730" duration="18121000" />
-      <workItem from="1566959669639" duration="3530000" />
+      <workItem from="1566959669639" duration="4102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85354000" />
+    <option name="totallyTimeSpent" value="85926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="965" extended-state="6" />
@@ -454,28 +451,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="233" column="33" lean-forward="true" selection-start-line="233" selection-start-column="33" selection-end-line="233" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/common/_section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3146">
-          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-          <folding>
-            <element signature="e#16#734#0" />
-          </folding>
+        <state relative-caret-position="3315">
+          <caret line="221" column="24" lean-forward="true" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+        <state relative-caret-position="227">
+          <caret line="380" column="43" selection-start-line="380" selection-start-column="43" selection-end-line="380" selection-end-column="43" />
           <folding>
             <element signature="n#div#0;n#div#5;n#div#2;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/common/_section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>
