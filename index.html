@@ -89,7 +89,29 @@
                 <div class="row course-row">
                     <div class="col-sm-6 col-lg-4">
                         <div class="course-item">
-                            <!--<a href="#"></a>-->
+                            <a class="d-xl-none link" href="layout/shop-details.html"></a>
+                            <div class='box-details d-none d-xl-block'>
+                                <h4>Cha mẹ chơi, con thành tài</h4>
+                                <div class='name'>
+                                    <b>Trung tâm huấn luyện kỹ năng</b>, Công ty cổ phần đào tạo Tâm Trí Lực
+                                </div>
+                                <div class='des'>
+                                    Dạy con tự lập ngay từ khi trẻ còn nhỏ là điều rất cần thiết, phù hợp với sự phát triển của Thế giới và Việt Nam. Khi có tính tự lập, trẻ có thể… tự làm mọi công việc của mình một cách tốt nhất mà không lệ thuộc, dựa dẫm vào sự giúp đỡ của người khác. Đây chính là những nền tảng cho sự thành công của trẻ về sau.
+                                </div>
+                                <div class='text-right'>
+                                    <a href='layout/shop-details.html'>Xem chi tiết <i class='fa fa-arrow-right' aria-hidden='true'></i></a>
+                                </div>
+                                <div class='price'>
+                                    <span class='promotion-price'>Từ 200.000đ</span>
+                                    <span class='origin-price'>500.000đ</span>
+                                </div>
+                                <form action=''>
+                                    <button type='submit'>MUA NGAY</button>
+                                </form>
+                            </div>
+
+
+
                             <div class="wrapper">
                                 <div class="img">
                                     <img class="img-fluid" src="images/thumb-course.jpg" alt="">
@@ -127,7 +149,26 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="course-item">
-                            <!--<a href="#"></a>-->
+                            <a class="d-xl-none link" href="layout/shop-details.html"></a>
+                            <div class='box-details d-none d-xl-block'>
+                                <h4>Cha mẹ chơi, con thành tài</h4>
+                                <div class='name'>
+                                    <b>Trung tâm huấn luyện kỹ năng</b>, Công ty cổ phần đào tạo Tâm Trí Lực
+                                </div>
+                                <div class='des'>
+                                    Dạy con tự lập ngay từ khi trẻ còn nhỏ là điều rất cần thiết, phù hợp với sự phát triển của Thế giới và Việt Nam. Khi có tính tự lập, trẻ có thể… tự làm mọi công việc của mình một cách tốt nhất mà không lệ thuộc, dựa dẫm vào sự giúp đỡ của người khác. Đây chính là những nền tảng cho sự thành công của trẻ về sau.
+                                </div>
+                                <div class='text-right'>
+                                    <a href='layout/shop-details.html'>Xem chi tiết <i class='fa fa-arrow-right' aria-hidden='true'></i></a>
+                                </div>
+                                <div class='price'>
+                                    <span class='promotion-price'>Từ 200.000đ</span>
+                                    <span class='origin-price'>500.000đ</span>
+                                </div>
+                                <form action=''>
+                                    <button type='submit'>MUA NGAY</button>
+                                </form>
+                            </div>
                             <div class="wrapper">
                                 <div class="img">
                                     <img class="img-fluid" src="images/thumb-course.jpg" alt="">
@@ -165,7 +206,26 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="course-item">
-                            <!--<a href="#"></a>-->
+                            <a class="d-xl-none link" href="layout/shop-details.html"></a>
+                            <div class='box-details d-none d-xl-block'>
+                                <h4>Cha mẹ chơi, con thành tài</h4>
+                                <div class='name'>
+                                    <b>Trung tâm huấn luyện kỹ năng</b>, Công ty cổ phần đào tạo Tâm Trí Lực
+                                </div>
+                                <div class='des'>
+                                    Dạy con tự lập ngay từ khi trẻ còn nhỏ là điều rất cần thiết, phù hợp với sự phát triển của Thế giới và Việt Nam. Khi có tính tự lập, trẻ có thể… tự làm mọi công việc của mình một cách tốt nhất mà không lệ thuộc, dựa dẫm vào sự giúp đỡ của người khác. Đây chính là những nền tảng cho sự thành công của trẻ về sau.
+                                </div>
+                                <div class='text-right'>
+                                    <a href='layout/shop-details.html'>Xem chi tiết <i class='fa fa-arrow-right' aria-hidden='true'></i></a>
+                                </div>
+                                <div class='price'>
+                                    <span class='promotion-price'>Từ 200.000đ</span>
+                                    <span class='origin-price'>500.000đ</span>
+                                </div>
+                                <form action=''>
+                                    <button type='submit'>MUA NGAY</button>
+                                </form>
+                            </div>
                             <div class="wrapper">
                                 <div class="img">
                                     <img class="img-fluid" src="images/thumb-course.jpg" alt="">
@@ -442,9 +502,23 @@
             }, 800);
         });
     </script>
-    <!--<script>-->
-        <!--$('[data-toggle="tooltip"]').tooltip();-->
-    <!--</script>-->
+    <script>
+        if (window.matchMedia('(min-width: 1200px)').matches){
+            $('.course-item').mouseenter(function(){
+                $(this).find('.box-details').addClass('is-showed');
+            })
+            $('.course-item').mouseleave(function(){
+                $(this).find('.box-details').removeClass('is-showed');
+            })
+        }
+
+    </script>
+    <script>
+        if (window.matchMedia('(min-width: 1200px)').matches){
+            $('.course-row .col-lg-4:nth-child(3n) .course-item').addClass('last-item');
+        }
+    </script>
+
 
 </body>
 
