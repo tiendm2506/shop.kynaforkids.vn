@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_play_circle_outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="shop-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.1-shop.kyna4kids-detail" transform="translate(-460.000000, -417.000000)">
+            <g id="Group-7" transform="translate(180.000000, 286.000000)">
+                <g id="Group-3" transform="translate(249.000000, 126.000000)">
+                    <g id="ic_play_circle_outline" transform="translate(26.000000, 0.000000)">
+                        <polygon id="Bounds" points="0 0 70 0 70 70 0 70"></polygon>
+                        <path d="M28.5283019,47.4150943 L45.9622642,34.3396226 L28.5283019,21.2641509 L28.5283019,47.4150943 L28.5283019,47.4150943 Z M34.3396226,5.28301887 C18.3003774,5.28301887 5.28301887,18.3003774 5.28301887,34.3396226 C5.28301887,50.3788679 18.3003774,63.3962264 34.3396226,63.3962264 C50.3788679,63.3962264 63.3962264,50.3788679 63.3962264,34.3396226 C63.3962264,18.3003774 50.3788679,5.28301887 34.3396226,5.28301887 L34.3396226,5.28301887 Z M34.3396226,57.5849057 C21.5256604,57.5849057 11.0943396,47.1535849 11.0943396,34.3396226 C11.0943396,21.5256604 21.5256604,11.0943396 34.3396226,11.0943396 C47.1535849,11.0943396 57.5849057,21.5256604 57.5849057,34.3396226 C57.5849057,47.1535849 47.1535849,57.5849057 34.3396226,57.5849057 L34.3396226,57.5849057 Z" id="Icon" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
