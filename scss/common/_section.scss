@@ -259,6 +259,8 @@
         }
         .amount{
           display: none;
+          font-family: sans-serif;
+          font-weight: 700;
           @media(min-width: 992px){
             display: inline-block;
             color: #888888;

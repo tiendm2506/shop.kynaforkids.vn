@@ -475,7 +475,9 @@ input[type="radio"]:checked:after {
           .course-item .wrapper .tag-rating .rating .stars i.disable-active {
             color: #d8d8d8; }
       .course-item .wrapper .tag-rating .rating .amount {
-        display: none; }
+        display: none;
+        font-family: sans-serif;
+        font-weight: 700; }
         @media (min-width: 992px) {
           .course-item .wrapper .tag-rating .rating .amount {
             display: inline-block;
