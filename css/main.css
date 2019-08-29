@@ -330,7 +330,7 @@ input[type="radio"]:checked:after {
         right: -10px;
         top: 20px; }
     .course-item .box-details {
-      max-width: 350px;
+      width: 350px;
       background: #ffffff;
       box-shadow: 0 2px 19px 0 rgba(204, 204, 204, 0.5);
       padding: 30px 20px;
