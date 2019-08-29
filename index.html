@@ -524,14 +524,6 @@
         });
     </script>
     <script>
-        $(".scroll-to-courses").on('click', function() {
-            let h_header = $('#header').outerHeight();
-            $('html, body').animate({
-                scrollTop: $(".course-row").offset().top - h_header
-            }, 800);
-        });
-    </script>
-    <script>
         if (window.matchMedia('(min-width: 1200px)').matches){
             $('.course-row .col-lg-4:nth-child(3n) .course-item').addClass('last-item');
         }
