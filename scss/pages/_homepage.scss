@@ -32,16 +32,23 @@
           left: 20px;
         }
         &.slick-next{
-          right:570px;
+          right: calc(40% + 20px);
+          @media(min-width: 1200px){
+            right:570px;
+          }
         }
       }
     }
     .slick-dots{
       text-align: center;
       position: absolute;
-      bottom: 0;
+      bottom: -30px;
       width: 100%;
       @media(min-width: 992px){
+        width: 60%;
+        bottom: 0;
+      }
+      @media(min-width: 1200px){
         width: calc(100% - 550px);
       }
       li{
@@ -49,14 +56,14 @@
         margin: 0 5px;
         &.slick-active{
           button{
-            background: #ffffff;
+            background: #4a4a4a;
           }
         }
         button{
           color: transparent;
           width: 10px;
           height: 10px;
-          background: #6e6e6e;
+          background: #d2d2d2;
           border-radius: 50%;
           border: none;
         }
@@ -69,24 +76,32 @@
       }
       .img-banner{
         @media(min-width: 992px){
+          width: 60% !important;
+        }
+        @media(min-width: 1200px){
           width: calc(100% - 550px) !important;
         }
       }
     }
     .wrapper{
       .bg-green-right{
-        display: flex;
-        align-items: center;
+        //display: flex;
+        //align-items: center;
+        text-align: center;
         padding: 15px 20px;
         background-image: linear-gradient(106deg, #c4d92b, #95c93b, #97c93b, #afd133);
+        @media(min-width: 992px){
+          display: flex;
+          align-items: center;
+        }
         @media(min-width: 1200px){
           background-image: url("../images/bg-green.png");
           background-size: 100% 100%;
         }
         .wrapper-bg-green{
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
+          //display: flex;
+          //justify-content: space-between;
+          //align-items: center;
           @media(min-width: 768px){
             width: 100%;
           }
@@ -103,10 +118,11 @@
           width: 550px;
         }
         h3{
-          color: #ffffff;
+          color: #333333;
           font-weight: 700;
           font-size: 16px;
           margin-right: 15px;
+          margin-bottom: 10px;
           @media(min-width: 992px){
             font-size: 24px;
             color: #f56c23;
@@ -125,11 +141,11 @@
           color: #ffffff;
           border-radius: 22.5px;
           box-shadow: 0 6px 15px 0 rgba(152, 152, 152, 0.29);
-          border: solid 5px #cce790;
+          border: solid 2px #cce790;
           background-image: linear-gradient(to right, #fe5a75, #fd9266);
           width: 145px;
           text-align: center;
-          padding: 7px 0 8px;
+          padding: 9px 0 10px;
         }
       }
     }

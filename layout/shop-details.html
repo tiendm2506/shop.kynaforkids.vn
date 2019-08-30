@@ -19,9 +19,12 @@
                         <img class="img-fluid" src="../images/logo.svg" alt="">
                     </a>
                     <div class="lines control-menu-mb d-sm-none">
-                        <span class="lines__first"></span>
-                        <span class="lines__second"></span>
-                        <span class="lines__last"></span>
+                        <div class="d-inline-block text">Tuỳ chọn</div>
+                        <div>
+                            <span class="lines__first"></span>
+                            <span class="lines__second"></span>
+                            <span class="lines__last"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="menu">
@@ -29,9 +32,6 @@
                         <li>
                             <img style="margin-right: 5px;width: 40px" class="d-inline-block" src="../images/avatar.png" alt="">
                             <span style="font-weight: 700;">Nguyễn Minh Tinh</span>
-                        </li>
-                        <li>
-                            <a class="register-btn" href="#"><img class="d-lg-none" src="../images/ic-person.svg" alt="">Đăng ký</a>
                         </li>
                         <li>
                             <a class="register-btn" href="#"><img class="d-lg-none" src="../images/icon-vao-hoc.svg" alt="">Vào học</a>
@@ -51,16 +51,13 @@
         <section id="banner">
             <img class="img-fluid w-100 img-banner d-none d-lg-block" src="../images/monkey-banner.png" alt="">
             <div class="container">
-                <a href="#">
-                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                    <span>Về trang chủ</span>
-                </a>
+                <div class="breadcrumb-line">
+                    <a href="/">Trang chủ</a>
+                    <span class="icon">»</span>
+                    <b>Bé giỏi Toán cùng Fingermath & Soroban</b>
+                </div>
                 <div class="name d-none d-lg-flex">
                     <div class="tag">Ứng dụng</div>
-                    <h1>Bé giỏi Toán cùng Fingermath & Soroban</h1>
-                </div>
-                <div class="description d-none d-lg-block">
-                    <span>Early Start</span>
                     <div class="stars">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
@@ -68,7 +65,11 @@
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star disable-active" aria-hidden="true"></i>
                     </div>
+                    <span class="author">Early Start</span>
+                    <span class="amount-buy"><b>1.502</b> người đã mua</span>
+
                 </div>
+                <h1 class="d-none d-lg-block">Bé giỏi Toán cùng Fingermath & Soroban</h1>
             </div>
         </section>
         <section id="video">
@@ -89,8 +90,6 @@
                                 <div class="show-video"></div>
                             </div>
                             <div class="description d-lg-none">
-                                <h1>Kể chuyện tương tác - VNMonkey</h1>
-                                <span>Early Start</span>
                                 <div class="stars">
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -98,12 +97,19 @@
                                     <i class="fa fa-star" aria-hidden="true"></i>
                                     <i class="fa fa-star disable-active" aria-hidden="true"></i>
                                 </div>
+                                <span class="author">Early Start</span>
+                                <span style="color: #333333;"><b>1.502</b> người đã mua</span>
+                                <h1>Kể chuyện tương tác - VNMonkey</h1>
+
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-5">
                         <div class="box-buy-course">
-                            <div class="tag d-none d-lg-block">Ứng dụng</div>
+                            <div class="tag d-none d-lg-block">
+                                <span class="text">Ứng dụng</span>
+                                <span class="amount-buy"><b>1.502</b> người đã mua</span>
+                            </div>
                             <h3 class="d-none d-lg-block">Bé giỏi Toán cùng Fingermath & Soroban</h3>
                             <form class="form">
                                 <div class="d-lg-none control-show-list-package">
@@ -150,7 +156,7 @@
             </div>
         </section>
         <section class="d-lg-none" id="just-mobile">
-            <ul>
+            <ul class="d-none">
                 <li class="is-selected">
                     <div>
                         <label for="one-month">Học 1 tháng</label>
@@ -179,6 +185,40 @@
                     </div>
                 </li>
             </ul>
+            <form class="form">
+                <ul>
+                    <li class="is-selected">
+                        <div>
+                            <input type="radio" name="time" id="one-month-mb" checked>
+                            <label for="one-month-mb">Học 1 tháng</label>
+                        </div>
+                        <div class="price">
+                            <div class="origin-price">8.000đ</div>
+                            <div class="promotion-price">8.000đ</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="radio" name="time" id="one-year-mb">
+                            <label for="one-year-mb">Học 1 năm</label>
+                        </div>
+                        <div class="price">
+                            <div class="origin-price">8.000đ</div>
+                            <div class="promotion-price">8.000đ</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <input type="radio" name="time" id="six-month-mb">
+                            <label for="six-month-mb">Học 6 tháng</label>
+                        </div>
+                        <div class="price">
+                            <div class="origin-price">8.000đ</div>
+                            <div class="promotion-price">8.000đ</div>
+                        </div>
+                    </li>
+                </ul>
+            </form>
         </section>
         <section id="slider-images">
             <div class="container">
@@ -322,7 +362,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xl-4 offset-xl-1">
+                    <div class="col-lg-6 col-xl-5">
                         <div class="left">
                             <div class="wrapper-flex">
                                 <div class="wrapper">
