@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd6e7bb-f88f-425f-b613-e0eb91700f00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner-khoahoc-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner-khoahoc-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner-khoahoc-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner-khoahoc-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-slider-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-slider-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/shop-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout/shop-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/common/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img-slider.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/common/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/common/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/common/_section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_homepage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,25 +58,26 @@
     <session id="-546292883">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="8" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="5722" />
+          <entry key="html" value="5735" />
           <entry key="js" value="466" />
-          <entry key="scss" value="10601" />
+          <entry key="scss" value="10722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="5722" />
+          <entry key="HTML" value="5735" />
           <entry key="JavaScript" value="466" />
-          <entry key="SCSS" value="10601" />
+          <entry key="SCSS" value="10722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,25 +103,55 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1987336869">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="15" />
+          <entry key="html" value="1002" />
+          <entry key="scss" value="3089" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="1002" />
+          <entry key="SCSS" value="3089" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="png" value="3" />
+          <entry key="scss" value="1" />
+          <entry key="svg" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="Image" value="3" />
+          <entry key="SCSS" value="1" />
+          <entry key="SVG" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/common/_section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+            <state relative-caret-position="174">
+              <caret line="61" column="15" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="15" />
               <folding>
-                <element signature="e#5037#8142#0" />
+                <element signature="e#16#951#0" />
+                <element signature="e#1791#3604#0" />
               </folding>
             </state>
           </provider>
@@ -114,7 +160,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layout/shop-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="589">
               <caret line="364" column="49" selection-start-line="364" selection-start-column="49" selection-end-line="364" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -133,17 +179,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6420">
-              <caret line="428" column="64" selection-start-line="428" selection-start-column="64" selection-end-line="428" selection-end-column="64" />
+            <state relative-caret-position="542">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/pages/_homepage.scss">
+        <entry file="file://$PROJECT_DIR$/css/icomoon.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="473">
+              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -157,11 +209,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/pages/_homepage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="294" column="11" lean-forward="true" selection-start-line="294" selection-start-column="11" selection-end-line="294" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/common/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="240">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -188,28 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Chọn khó</find>
-      <find>top</find>
-      <find>primordials</find>
-      <find>ontrol-show-list-package</find>
-      <find>course</find>
-      <find>.wrapper</find>
-      <find>link-video</find>
-      <find>amon</find>
-      <find>share</find>
-      <find>pagi</find>
-      <find>cour</find>
-      <find>course-row</find>
-      <find>350px</find>
-      <find>#video</find>
-      <find>.lines</find>
-      <find>.slick-dots</find>
-      <find>-green</find>
-      <find>banner</find>
-      <find>wrapper-video</find>
-      <find>Chọn thời hạn học</find>
-      <find>.form</find>
-      <find>.video</find>
       <find>bread</find>
       <find>slick-dot</find>
       <find>name</find>
@@ -218,6 +257,28 @@
       <find>video</find>
       <find>comment</find>
       <find>breadcrumb-line</find>
+      <find>des</find>
+      <find>.des</find>
+      <find>search</find>
+      <find>cate</find>
+      <find>icon</find>
+      <find>-4</find>
+      <find>intro</find>
+      <find>#content</find>
+      <find>wrapper-four-box</find>
+      <find>box-ite</find>
+      <find>high</find>
+      <find>hight</find>
+      <find>banner</find>
+      <find>catego</find>
+      <find>categ</find>
+      <find>:hover</find>
+      <find>.box-ite</find>
+      <find>Giáo dục sớm</find>
+      <find>post</find>
+      <find>icon-icon-3 ico-moon</find>
+      <find>large</find>
+      <find>box-item</find>
     </findStrings>
     <replaceStrings>
       <replace>src=&quot;../js/</replace>
@@ -237,13 +298,14 @@
         <option value="$PROJECT_DIR$/scss/common/partials/_typography.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/scss/common/_general.scss" />
-        <option value="$PROJECT_DIR$/scss/common/_section.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/common/partials/_header.scss" />
-        <option value="$PROJECT_DIR$/scss/pages/_homepage.scss" />
         <option value="$PROJECT_DIR$/layout/shop-details.html" />
         <option value="$PROJECT_DIR$/scss/pages/_shop-details-page.scss" />
+        <option value="$PROJECT_DIR$/scss/common/_section.scss" />
+        <option value="$PROJECT_DIR$/css/icomoon.css" />
+        <option value="$PROJECT_DIR$/scss/common/_general.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/pages/_homepage.scss" />
       </list>
     </option>
   </component>
@@ -257,9 +319,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="53" />
     <option name="width" value="1680" />
-    <option name="height" value="966" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,28 +334,32 @@
         <subPane>
           <expand>
             <path>
-              <item name="shop.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="chame.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chame.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="shop.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="chame.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chame.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chame.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chame.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chame.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chame.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="shop.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="chame.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chame.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="shop.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
+              <item name="chame.kynaforkids.vn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chame.kynaforkids.vn" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -310,14 +376,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/layout" />
-      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,18 +419,21 @@
       <workItem from="1567149128204" duration="245000" />
       <workItem from="1567154169442" duration="2477000" />
       <workItem from="1567158116888" duration="317000" />
-      <workItem from="1567158661877" duration="2890000" />
+      <workItem from="1567158661877" duration="3010000" />
+      <workItem from="1567477376040" duration="1190000" />
+      <workItem from="1567564428332" duration="2599000" />
+      <workItem from="1567583954602" duration="411000" />
+      <workItem from="1567650662258" duration="22460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102364000" />
+    <option name="totallyTimeSpent" value="129144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23137973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24175824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" />
@@ -378,7 +447,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23657143" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.74626863" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,17 +505,10 @@
     <entry file="file://$PROJECT_DIR$/images/icon-vao-hoc.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/common/_section.scss">
+    <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6420">
-          <caret line="428" column="64" selection-start-line="428" selection-start-column="64" selection-end-line="428" selection-end-column="64" />
+        <state relative-caret-position="1845">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -454,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/common/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -480,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/shop-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="589">
           <caret line="364" column="49" selection-start-line="364" selection-start-column="49" selection-end-line="364" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -495,20 +550,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_homepage.scss">
+    <entry file="file://$PROJECT_DIR$/images/icon-1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon-7.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonts/icomoon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/slider-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg-box-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/hinh-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/common/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/pages/_shop-details-page.scss">
+    <entry file="file://$PROJECT_DIR$/scss/common/_section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
+        <state relative-caret-position="174">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="15" />
           <folding>
-            <element signature="e#5037#8142#0" />
+            <element signature="e#16#951#0" />
+            <element signature="e#1791#3604#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icomoon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/pages/_homepage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="294" column="11" lean-forward="true" selection-start-line="294" selection-start-column="11" selection-end-line="294" selection-end-column="11" />
         </state>
       </provider>
     </entry>

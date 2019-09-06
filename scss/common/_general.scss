@@ -12,6 +12,9 @@ h1,h2,h3,h4,h5,h6,p{
 input, textarea{
   border: 1px solid #333;
   padding: 10px 15px;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
   &:focus{
     border:1px solid #3B5998;
     outline: none;

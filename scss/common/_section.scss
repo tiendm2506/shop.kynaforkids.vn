@@ -114,7 +114,13 @@
         margin: 10px 0;
       }
       .des{
-
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        max-height: 80px;
+        line-height: 20px;
       }
       a{
         color: #333333;
